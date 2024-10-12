@@ -14,7 +14,7 @@ This repository demonstrates a simple implementation of OpenAI Swarm for multi-a
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/openai-swam-simple-rag.git
+    git clone https://github.com/lesteroliver911/openai-swam-simple-rag.git
     cd openai-swam-simple-rag
     ```
 
