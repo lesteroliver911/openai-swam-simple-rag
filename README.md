@@ -85,3 +85,23 @@ The system runs a **Swarm** of agents with specialized tasks. Each agent uses Op
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Sample Output
+
+Here’s an example of how the system works in a typical session:
+
+```bash
+(resumerank) lesteroliver@Lesters-MacBook-Air resume-rank % /Users/lesteroliver/Dev/resume-rank/resumerank/bin/python /Users/lesteroliver/Dev/resume-rank/a.py
+/Users/lesteroliver/Dev/resume-rank/a.py:32: LangChainDeprecationWarning: Please see the migration guide at: https://python.langchain.com/docs/versions/migrating_memory/
+  self.memory = ConversationBufferMemory(return_messages=True)
+Starting Final LLM Swarm Text Analyzer
+You can ask for sentiment analysis, summarization, keyword extraction, or ask questions about loaded documents.
+Type 'load_documents' to load a text file for analysis.
+Type 'exit' to quit
+User: load_documents
+Enter the path to the text file: 10000_char_text.txt
+Document loaded successfully. Content length: 143520 characters
+User: summerize this document
+Text Analyzer: The document discusses the impact of artificial intelligence (AI) on various aspects of society, including healthcare, education, and the future of work. It highlights the potential benefits of AI in improving efficiency, decision-making, and innovation, but also raises concerns about ethical considerations, data privacy, and algorithmic bias. The document emphasizes the importance of collaboration between policymakers, technologists, and citizens to ensure that AI is developed and deployed in a way that benefits all of humanity. It also stresses the need for ongoing dialogue, transparency, and accountability in the development of AI technologies.
+User: 
+```
