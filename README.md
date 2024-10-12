@@ -43,7 +43,6 @@ This repository demonstrates a simple implementation of OpenAI Swarm for multi-a
 2. You'll be prompted to load documents and can interact with the agents via the command-line interface for:
 
     - Summarization
-    - Sentiment analysis
     - Keyword extraction
     - Document search
 
